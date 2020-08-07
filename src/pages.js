@@ -87,8 +87,8 @@ async function saveClasses (req, res) {
     }
 
     
-    }
 }
+
 
 module.exports = {
     pageLanding,
