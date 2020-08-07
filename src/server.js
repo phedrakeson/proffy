@@ -10,22 +10,57 @@ const proffys = [
     time_to: [1220] }
 ]
 
+const subjects = [
+    "Artes",
+    "Biologia",
+    "Ciências",
+    "Educação Física",
+    "Física",
+    "Geografia",
+    "História",
+    "Matemática",
+    "Português",
+    "Química",
+]
 
+const weekdays = [
+    "Domingo",
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sábado",
+]
 
 const express = require('express')
 const server = express()
 const nunjucks = require('nunjucks')
+
+function getSubject(subjectNumber) {
+    const position = +subjectNumber - 1
+    return subjects[position]
+}
 
 function pageLanding(req, res) {
     return res.render("index.html")
 }
 
 function pageStudy(req, res) {
-    return res.render("study.html", {proffys})
+    const filters = req.query
+    return res.render("study.html", {proffys, filters, subjects, weekdays})
 }
 
 function pageGiveClasses(req, res) {
-    return res.render("give-classes.html")
+    const data = req.query
+    const isNotEmpty = Object.keys(data).length != 0
+    if (isNotEmpty) {
+        data.subject = getSubject(data.subject)
+
+        proffys.push(data)
+        return res.redirect("/study")
+    }
+    return res.render("give-classes.html", {weekdays, subjects})
 }
 
 nunjucks.configure('src/views', {
@@ -33,6 +68,7 @@ nunjucks.configure('src/views', {
     noCache: true,
 })
 
+server
 server.use(express.static("public"))
 
 .get("/", pageLanding)
