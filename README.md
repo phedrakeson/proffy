@@ -24,15 +24,15 @@ Professores podem se cadastrar na plataforma para ensinarem alunos interessados,
 
 <h3> Mobile - Home </h3>
 
-<img src="https://i.imgur.com/p7275R9.png" alt="Mobile-Home" width="270">
+<img src="https://i.imgur.com/p7275R9.png" alt="Mobile-Home" width="425">
 
 <h3> Mobile - Pesquisa por Proffys </h3>
 
-<a href="https://gyazo.com/29a1f3ab47b527185f5a07c0865d4408"><img src="https://i.gyazo.com/29a1f3ab47b527185f5a07c0865d4408.gif" alt="Image from Gyazo" width="270"></a>
+<a href="https://gyazo.com/29a1f3ab47b527185f5a07c0865d4408"><img src="https://i.gyazo.com/29a1f3ab47b527185f5a07c0865d4408.gif" alt="Image from Gyazo" width="425"></a>
 
 <h3> Mobile - Cadastro de Proffys </h3>
 
-<a href="https://gyazo.com/0a811fa80f08c3111da14ffb1427d674"><img src="https://i.gyazo.com/0a811fa80f08c3111da14ffb1427d674.gif" alt="Image from Gyazo" width="270"/></a>
+<a href="https://gyazo.com/0a811fa80f08c3111da14ffb1427d674"><img src="https://i.gyazo.com/0a811fa80f08c3111da14ffb1427d674.gif" alt="Image from Gyazo" width="425"/></a>
 
 --- 
 
