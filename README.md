@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://ik.imagekit.io/capitao/Proffy/nlw2_6d7PvlHZ5.svg" width="150" >
+  
 <a href="https://github.com/phedrakeson/proffy/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/phedrakeson/proffy?color=%238e44ad&style=flat-square"></a> <a href="https://github.com/phedrakeson/proffy/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/phedrakeson/proffy?color=%238e44ad&style=flat-square"></a> <a href="https://github.com/phedrakeson/proffy/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/phedrakeson/proffy?color=%238e44ad&style=flat-square"></a> <a href="https://github.com/phedrakeson/proffy"><img alt="GitHub license" src="https://img.shields.io/github/license/phedrakeson/proffy?color=%238e44ad&style=flat-square"></a>
 </p>
 
